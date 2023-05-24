@@ -1,0 +1,514 @@
+.eidfn{
+    color: #913bff
+    #00284E
+    #010d4c
+    #ffffff
+    #0066ff
+    #0043a8
+    ;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* manu to start */
+.header-logo{
+    color: #00284E;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.primay-menu{
+  
+
+}
+.primay-menu li{
+    display: inline-block;
+    list-style: none;
+    padding: 10px 20px;
+    font-size: 17px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-weight: 700;
+    color: #00284E;
+    position: relative;
+    transition: all .43s ease;
+}
+.primay-menu li:hover{
+    color: #913bff;
+}
+.primay-menu li::after {
+    content: "";
+    position: absolute;
+    width: 64%;
+    left: 19px;
+    bottom: 8px;
+    height: 2px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #913bff;
+    visibility: hidden;
+    transform-origin: left;
+   transform: scaleX(0);
+   transition:all .43s ease;
+}
+.primay-menu li:hover:after{
+    transform: scaleX(1);
+    visibility: visible;
+}
+
+
+.coll-text{
+    margin-right: 60px;
+    font-size: 18px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+.coll-text span{
+    font-size: 18px;
+    color:#57718a;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+.header-batton{
+    margin-right: 20px;
+    font-size: 15px;
+}
+.header-batton a {
+    font-size: 15px;
+    font-weight: bolder;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+/* hero-baner */
+
+.hero-section{
+    background: url(https://devshakilahmed.github.io/shakil3128/img/pexels-hasan-albari-1229861.jpg) no-repeat center center;
+    background-size: cover;
+    padding:150px;
+    color: #ffffff;
+}
+.hero-text{
+     
+}
+.hero-text h1{
+    font-size: 70px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+.hero-text h4{
+    font-size: 20px;
+   padding: 18px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    color: #caccd1;
+}
+.hero-batner {
+    font-size: 15px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+/* number */
+.text-number h1{
+    font-size: 50px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-weight: bold;
+}
+.text-number p{
+    font-size: 16px;
+    font-weight: 600;
+    color:#8a8a8a;
+}
+
+
+/* card-stes */
+.header-cede{
+    background-color: #caccd1;
+}
+.text-tnem p{
+    color: #8a8a8a;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+.box-wrap img {
+    height: 300px;
+    object-fit: cover;
+    width: 356px;
+    border-radius: 10px 10px 0px 0px;
+   
+}
+
+.cared-img{
+    position: relative;
+    overflow: hidden;
+}
+.cared-img .iconme {
+    position: absolute;
+    top: 225px;
+    left: 281px;
+    width: 100px;
+    height: 100px;
+    background-color: #913bff;
+    border-radius: 50%;
+    transform-origin: bottom right;
+    transform: scale(0);
+    transition: .5s ease-in-out;
+}
+.box-wrap:hover .iconme{
+    transform: scale(1);
+}
+
+.cared-img .iconme i {
+    line-height: 91px;
+    font-size: 30px;
+    margin-left: 29px;
+   
+}
+
+.box-text h2{
+    color: #913bff;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+.box-text a{
+ color:  #00284E;
+ text-decoration: none;
+ display: block;
+ font-size: 28px;
+ font-family: 'Be Vietnam Pro', sans-serif;
+ transition: all .43s ease;
+
+}
+.box-wrap:hover .box-text a{
+    color: #913bff;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+.box-wrap{
+    transition:all .43s ease;
+    border-radius: 10px;
+}
+.box-wrap:hover{
+    transform: translateY(-10px);
+}
+
+
+/* card-end*/
+
+
+/* cresdrd-to start */
+.text-heaerd h2{
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+.card-items {
+    box-shadow: 1px 1px 5px 0px black;
+    padding: 20px;
+    border-radius: 10px;
+    transition: .4s;
+}
+.card-items .icon-tem {
+    margin-bottom: 20px;
+    font-size: 40px;
+    color: #913bff;
+}
+.card-items h6 {
+    font-size: 21px;
+    font-weight: bold;
+    margin-bottom: 22px;
+   color: #00284E;
+}
+.card-items p {
+  font-size: 17px;
+  color: #00284E;
+  font-family: 'Be Vietnam Pro', sans-serif;
+}
+.card-items:hover {
+   transform: translateY(-10px);
+   
+}
+
+.pajertd-terd{
+    padding: 100px 0px;
+}
+.prirte-text {
+    margin-top: 132px;
+}
+.prirte-text h5{
+    font-weight: 600;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+.prirte-text h1 {
+    font-weight: 900;
+    font-size: 56px;font-family: 'Be Vietnam Pro', sans-serif;
+}
+.prirte-text p {
+    font-weight: 400;
+    font-size: 23px;font-family: 'Be Vietnam Pro', sans-serif;
+}
+/* cresdrd-to end*/
+
+/* tiedsr to start */
+.tedrdo-ededf{
+    background-color: #caccd1;
+}
+
+/* tiedsr to end*/
+
+
+/* cleeds-to star */
+.pikern{
+    background: url(https://monirul9900.github.io/exam-assinment/images/background6.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.text-pompom{
+    margin-top: 30px;
+}
+.text-pompom p{
+   font-size: 17px;
+   font-family: 'Be Vietnam Pro', sans-serif;
+}
+.text-pompom h2{
+   font-family: 'Be Vietnam Pro', sans-serif;
+}
+.text-tome h4 {
+    font-size: 25px;
+    color: #ded6cf;
+    margin-bottom: 25px;
+}
+.text-tome h1 {
+    font-size: 64px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    color: #00284E;
+}
+.text-tome sup {
+    font-size: 28px;
+    top: -42px;
+    margin: -5px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    color: #00284E;
+}
+.text-tome p{
+    color: #00284E;
+    font-weight: 500;
+    font-size: 20px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    margin-top: 20px;
+}
+.text-tome .tptp {
+    padding: 10px 76px;
+    border: 1px solid #0066ff;
+    border-radius: 27px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #0066ff;
+    font-family: 'Be Vietnam Pro', sans-serif;
+
+}
+.text-tome .tptp:hover{
+    background-color: #0066ff;
+    color: #ffffff;
+}
+.tonje-text{
+    color: #8397ab;
+    
+}
+/* cleeds-to end */
+
+/* baclk to start */
+.terwef-rtee {
+    padding: 15px 132px;
+}
+.terwef-rtee i {
+    font-size: 62px;
+}
+.terwef-rtee h4 {
+    font-size: 21px;
+    margin-top: 31px;
+}
+.carousel-indicators{
+    left: 0;
+    margin: auto;
+    bottom: -70px;
+}
+.carousel-indicators li{
+    background:#913bff;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+}
+.carousel-indicators .active{
+    background: #7a34e283;
+}
+.tenreidf{
+    background: url(https://mohammad-enayet-sorobindu-html-exam.netlify.app/img/background2.jpg) no-repeat center;
+    background-size: cover;
+    padding: 185px;
+}
+
+/* baclk to end */
+
+/* Jone now to start */
+.text-ttt h1 {
+    color: #ffffff;
+    font-size: 46px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+.text-ttt p {
+    color: #c6c6c6;
+    font-size: 18px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+.baute-rede {
+    margin-top: 66px;
+    margin-left: 10px;
+    position: relative;
+    z-index: 1;
+}
+.baute-rede a{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Be Vietnam Pro', sans-serif;  
+    color: #8397ab;
+   
+    
+}
+.baute-rede a:hover{
+    background: #57718a;
+}
+
+.baute-rede{
+   
+}
+
+.baute-rede::after{
+    content: "";
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    top: 5px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    background-color: #706a6a;
+   
+    border-radius: 50%;
+    opacity: 0;
+    visibility: hidden;
+   z-index: 0;
+    
+}
+@keyframes play {
+    0%   {
+        transform: scale(0);
+        opacity: 1;
+    }
+    25%  {
+        transform: scale(.6);
+        opacity: .7;
+    }
+    50%  {
+        transform: scale(1);
+        opacity: .5;
+    }
+    100% {
+        transform: scale(1.5);
+        opacity: 0;
+    }
+                    
+}
+.baute-rede:hover::after{
+    animation: play .5s ease-in-out infinite;
+    opacity: 0;
+    visibility: visible;
+}
+.jone-tarp{
+    background: url(https://i.ibb.co/bLZXTjt/background4.jpg) no-repeat center;
+    background-size: cover;
+    padding: 150px;
+}
+    
+
+/* Jone now to end */
+
+
+.contat-start{
+    background: url(https://i.postimg.cc/26cbcMkH/background3.png) no-repeat center;
+    background-size: cover;
+    padding: 90px 0px;
+
+}
+
+.contesd-text p{
+    font-size: 26px;
+    font-family: 'Be Vietnam Pro', sans-serif;  
+}
+.email {
+    width: 75%;
+    padding: 20px 30px;
+    margin-top: 56px;
+    border:none;
+    margin-left: 160px;
+    border-radius: 10px;
+    position: relative;
+}
+
+    .toe {
+        position: absolute;
+        margin-top: -56px;
+        margin-left: 163px;
+        padding: 10px 25px;
+        font-weight: 700;
+    }
+
+    .tome {
+        position: relative;
+        z-index: 1;
+    }
+    .tome::after {
+        content: "";
+        height: 40px;
+        width: 40px;
+        position: absolute;
+        top: -53px;
+        left: 300px;
+        right: -150px;
+        margin: auto;
+        background-color: #706a6a;
+        border-radius: 50%;
+        opacity: 0;
+        visibility: hidden;
+        z-index: 0;
+    }
+    @keyframes play {
+        0%   {
+            transform: scale(0);
+            opacity: 1;
+        }
+        25%  {
+            transform: scale(.6);
+            opacity: .7;
+        }
+        50%  {
+            transform: scale(1);
+            opacity: .5;
+        }
+        100% {
+            transform: scale(1.5);
+            opacity: 0;
+        }
+
+    }
+
+    .tome:hover .toe{
+        color: #8a8a8a;
+    }
+
+    .tome:hover::after{
+        animation: play .5s ease-in-out infinite;
+        opacity: 0;
+        visibility: visible;
+    }
+
+    .footer-text p{
+        font-size: 18px;
+        font-family: 'Be Vietnam Pro', sans-serif;  
+        color: #616d77;
+    }
